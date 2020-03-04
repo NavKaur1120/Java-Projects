@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Debit Card Application Form </title>
+<link href="style/stylesheet.css" rel="stylesheet" type="text/css"> 
+<style>
+body{
+background-image:url("debit1.jpg");
+}</style>
+
+</head>
+<body>
+
+<div class="container">
+<form action="navjotkaur741037a2 " method="get" name="myForm" onsubmit="return(validate());" onchange="return(validate());" >
+
+
+<h1 class="heading"> Debit Card Application Form</h1>
+
+
+
+<label for="Title"><b>Title</b> </label>
+<input type="radio"  name="mr" value="Mr" >Mr
+<input type="radio"  name="mr" value="Mrs">Mrs
+<input type="radio"  name="mr" value="Miss" >Miss
+<input type="radio"  name="mr" value="Other" >Other<br>
+
+
+<label for="fn"><b>First Name</b></label>
+<input type="text" name="firstName" required><br>
+
+<label for="mn"><b>Middle Name</b></label>
+<input type="text" name="middleName" ><br>
+
+<label for="ln"><b>Last Name</b></label>
+<input type="text" name="lastName" required><br>
+
+<label for="gender"><b>Gender</b> </label><br>
+<input type="radio"  name="gen" value="Male">Male<br>
+<input type="radio"  name="gen" value="Female" >female<br>
+
+<label for="dob"><b>Date of Birth</b> </label>
+<input type="date"  name="db" placeholder="yyyy-mm-dd"><br>
+
+<label for="address"><b>Address</b> </label><br>
+<input type="text"  name="stad" required >Street Address <br>
+<input type="text"  name="stad2">Street Address Line2<br>
+<div class="row">
+<div class="column">
+<input type="text"  name="city" required >
+<p>City</p>
+</div>
+<div class="column">
+<input type="text"  name="province" required >
+<p>State/Province</p>
+</div>
+<div class="column">
+<input type="text"  name="zip" required >
+<p>postal Code</p>
+</div>
+</div>
+<br>
+<br>
+
+<label for="tele"><b>Telephone Number</b> </label><br>
+<select id="ph" name="area">
+<option>365</option>
+<option>548</option>
+<option>705</option>
+<option>226</option>
+<option>289</option>
+<option>613</option>
+<option>807</option>
+<option>437</option>
+<option>249</option>
+<option>343</option>
+<option>416</option>
+<option>519</option>
+<option>647</option>
+<option>905</option>
+</select>
+<input type="number"  name="phn" placeholder="Enter your telephone number"><br>
+
+
+<label for="email"><b>E-mail</b> </label><br>
+<input type="text"  name="email" placeholder="Enter your Email" required><br>
+
+<label for="acc"><b>Type of Current Account</b> </label><br>
+<input type="radio"  name="accnt" value="Regular">Regular
+<input type="radio"  name="accnt" value="Premium">Premium
+<input type="radio"  name="accnt" value="Trade" >Trade
+<input type="radio"  name="accnt" value="Plus">Plus
+<br>
+<br>
+<label for="code"><b>Branch Code</b> </label><br>
+<input type="text"  name="bcode" required><br>
+
+<label for="date"><b>Date</b> </label><br>
+<input type="date"  name="da" placeholder="yyyy-mm-dd"><br>
+
+<button type="submit" class="btn"><b>Submit</b></button><br>
+</form>
+</div>
+
+</body>
+</html>
