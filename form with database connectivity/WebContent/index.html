@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Form</title>
+<link rel="stylesheet" href="stylesheet.css">
+<style>
+body{
+background-image:url("hlo.jpg");
+
+
+}</style>
+</head>
+<body>
+<form action="navjot" method="post" >
+<div class= register>
+<h1>Registration form</h1>
+
+<label>First Name:</label>
+<input type="text" name="fname" id="fname" placeholder="Enter your first name" required/>
+<br></br>
+<label>Last Name:</label>
+<input type="text" name="lname" id="lname" placeholder="Enter your last name" required/>
+<br></br>
+<label>Date of Birth:</label>
+<input type="date" name="dob" id="dob"required/>
+<br></br>
+
+<label for="gender"><b>Gender</b> </label><br>
+<input type="radio"  name="gen" value="Male">Male<br>
+<input type="radio"  name="gen" value="Female" >female<br>
+
+<label>Mobile :</label>
+<select id="phn">
+<option>403</option>
+<option>250</option>
+<option>204</option>
+<option>506</option>
+<option>709</option>
+<option>867</option>
+<option>782</option>
+<option>506</option>
+<option>437</option>
+<option>902</option>
+<option>418<option>
+<option>306</option>
+<option>782</option>
+<option>416</option>
+
+</select>
+<input type="text" name="mob" id="mob" required/>
+<br></br>
+<label>Email Id:</label>
+<input type="email" name="email" id="email" placeholder="email@example.com" required/>
+<br></br>
+<label for="address"><b>Address</b> </label>
+<input type="text"  name="stad" required >Street Address 
+<input type="text"  name="stad2">Street Address Line2
+<div class="row">
+<div class="column">
+<input type="text"  name="city" required >
+<p>City</p>
+</div>
+<div class="column">
+<input type="text"  name="province" required >
+<p>State/Province</p>
+</div>
+<div class="column">
+<input type="text"  name="zip" required >
+<p>postal Code</p>
+</div>
+</div>
+<br>
+<br>
+
+<label>Social Insurance number:</label>
+<input type="text" name="sin" id="sin"required/>
+<br></br>
+
+<label>Availability :</label>
+<input type="checkbox" name="ava">Monday 
+<input type="checkbox" name="ava">Tuesday 
+<input type="checkbox" name="ava">Wednesday 
+<input type="checkbox" name="ava">Thursday 
+<input type="checkbox" name="ava">Friday 
+<input type="checkbox" name="ava">Saturday 
+
+
+
+<button class=button>Submit</button>
+<input type="button" name=button id="button1"/>
+
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	border-sizing:border-box;
+	
+	
+	
+}
+
+input[type=text],input[type=number],input[type=email]
+{
+width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#mob
+{
+	width:30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.register{
+	 width:70%;
+	padding:5%;
+	margin:auto;
+	background-cover:cover;
+	background-size:100% auto;
+	background-color:white;
+	background-repeat:no repeat;
+	opacity:0.7;
+	height:50%;
+}
+
+label {
+color: black;
+font-weight: bold;
+display: block;
+width: 150px;
+float: left;
+
+}
+
+select{
+	width:10%;
+	padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.column{
+	float:left;
+	width:30.3%;
+	padding:10px;
+	height:100px;
+	
+}
+
+.row:after{
+	content:"";
+	display:tables;
+	clear:both;
+	
+}
+button{
+	font-family:sans-serif;
+	text-transform:uppercase;
+	outline:0;
+	background:blue;
+	width:100%;
+	border:0;
+	padding: 15px;
+	font-size:14px;
+	cursor:pointer;
+	color:white;
+	transform-style:preserve-3d;
+
+}
+button:hover{
+	background-color:yellow;
+}
+
+
+
+
+	
+	
+	
